@@ -1,0 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  font-family: Montserrat;
+}
+
+.main {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  transition: all 0.7s ease;
+}
+
+.left {
+  position: relative;
+  width: 50%;
+  padding: 1rem 0;
+  transition: all 0.7s ease;
+}
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  transition: all 0.7s ease;
+}
+
+.cards {
+  width: 70%;
+  border-radius: 12px;
+  background: var(--gray-6, #f2f2f2);
+  padding-top: 1rem;
+  transition: all 0.7s ease;
+}
+
+.card {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: all 0.7s ease;
+}
+
+.image {
+  width: 40%;
+  object-fit: cover;
+  transition: all 0.7s ease;
+}
+.info {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: all 0.7s ease;
+}
+
+.info h3 {
+  color: #4e5150;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.info p {
+  color: #4e5150;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+}
+
+#price {
+  color: var(--orange, #f2994a);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.quantity {
+  width: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid var(--gray-3, #828282);
+  padding: 0.7rem 0.5rem;
+}
+
+.quantity button {
+  width: 25px;
+  height: 25px;
+  font-size: 1.1em;
+  color: #828282;
+  background-color: lightgray;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.shipping,
+.total {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding: 0.3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total {
+  margin-bottom: 1rem;
+}
+.shipping h4,
+.total h4 {
+  color: var(--gray-1, #333);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.shipping p,
+.total p {
+  color: var(--gray-1, #333);
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+fieldset {
+  border: none;
+}
+.form-head {
+  color: var(--gray-1, #333);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 1rem 0 !important;
+}
+
+label {
+  color: var(--gray-2, #4f4f4f);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 0.5rem;
+}
+
+.heading {
+  width: 80%;
+  margin: 2rem auto;
+  color: #4e5150;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  transition: all 0.7s ease;
+}
+
+.heading:hover{
+    text-shadow: 0 0 5px #4e5150;
+    cursor: pointer;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* gap: 0.5rem; */
+}
+input[type="text"],
+ input[type="number"],
+ input[type="email"],
+  input[type="tel"],input[type="select"]{
+    border: none;
+    outline: none;
+    background-color: white;
+    
+  }
+.input-field {
+  width: 95%;
+  padding: 0.7rem 0.5rem;
+  border-radius: 12px;
+  border: 1px solid var(--gray-3, #828282);
+  margin: 0.2rem 0;
+  margin-bottom: 0.2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.input-field input {
+  border: none;
+}
+
+.c_p {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.c_p div {
+  width: 49%;
+}
+.c_p div .input-field {
+  width: 98%;
+}
+
+.input-field select {
+  width: 80%;
+  border: none;
+  color: var(--gray-3, #828282);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.postal-ip {
+  width: 70%;
+  color: var(--gray-3, #828282);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.checkbox {
+  color: var(--gray-2, #4f4f4f);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.checkbox input {
+  width: 21px;
+  height: 21px;
+  border-radius: 6px;
+}
+
+.left button {
+  padding: 0.7rem 1.5rem;
+  border-radius: 12px;
+  background: var(--orange, #f2994a);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  transition: all 0.5s ease;
+}
+
+.left button:hover {
+  transform: scale(1.1);
+}
+
+footer{
+    text-align: center;
+    color: #BDBDBD;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+footer a{
+    color: #BDBDBD;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+@media screen and (max-width:1025px) {
+    .cards{
+        width: 85%;
+    }
+    .card .image{
+        width: 40%;
+    }
+
+    .quantity{
+        width: 60%;
+        gap: 1rem;
+    }
+
+}
+
+@media screen and (max-width:769px) {
+    .right{
+        padding: 0.5rem;
+    }
+    .cards{
+        width: 100%;
+    }
+    .info h3{
+        font-size: 12px;
+    }
+    .info p{
+        font-size: 10px;
+    }
+    .quantity{
+        width: 60%;
+        gap: 1rem;
+    }
+
+    .quantity button{
+        width: 20px;
+        height: 20px;
+    }
+
+    .card .image{
+        width: 40%;
+    }
+
+    .shipping , .total{
+        font-size: 14px;
+    }
+    .checkbox{
+        margin: 0.5rem 0;
+    }
+    
+}
+
+@media screen and (max-width:426px){
+    .main{
+        flex-direction: column-reverse;
+    }
+    .right,.left{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .heading{
+        text-align: center;
+    }
+
+    .checkbox{
+        margin: 0.5rem 0;
+    }
+}
