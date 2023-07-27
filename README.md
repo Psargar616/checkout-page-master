@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://psargar616.github.io/checkout-page-master/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Psargar616/checkout-page-master">
       Solution
     </a>
     <span> | </span>
@@ -61,12 +61,12 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 Challenge: Create a checkout page following the design. You don’t need to use JS in this challenge but use correct input types and validation. Don’t look at the existing solution. Fulfill user stories below:
 
-User story: I can see a page following the given design
-User story: I can input email, phone, full name, address, city, country, and postal code
-User story: I can input the number of items
-User story: I can select at least 3 countries from the dropdown
-User story: When I click submit button or press enter, I can see a warning if validation fails
-User story: When I click submit button or press enter, I can see a successful alert if validation succeeds
+- User story: I can see a page following the given design
+- User story: I can input email, phone, full name, address, city, country, and postal code
+- User story: I can input the number of items
+- User story: I can select at least 3 countries from the dropdown
+- User story: When I click submit button or press enter, I can see a warning if validation fails
+- User story: When I click submit button or press enter, I can see a successful alert if validation succeeds
 
 
 ## Acknowledgements
@@ -79,5 +79,5 @@ User story: When I click submit button or press enter, I can see a successful al
 
 ## Contact
 
-- GitHub [@Psargar616](https://{github.com/your-usermame})
+- GitHub [@Psargar616](https://github.com/Psargar616)
 
