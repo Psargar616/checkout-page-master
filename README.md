@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](./screenshots/screencapture-checkout-page.png)
+![screenshot](screenshots/screencapture-checkout-page.png)
 
 Created this responsive 'Checkout Page' using HTML, CSS and JS. 
 
